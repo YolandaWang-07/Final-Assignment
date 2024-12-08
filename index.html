@@ -30,19 +30,21 @@ h1 {
 }
 
 
-p {
-  
+.self_intro {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 20px;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   padding-top: 10%;
+  padding-right: 40%;
+  float: left;
+  
 }  
 
   li {
     display: inline;
-    padding: 3%;
+    padding: 4%;
     font-family: "Julius Sans One", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -51,6 +53,20 @@ p {
   a {
     text-decoration: none;
     color: inherit;
+  }
+  
+  .self-pic {
+    position: relative;
+    float: right;
+    width: 35%;
+    
+  }
+  
+  .home_navigation {
+    background-color: yellow;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 5px;
   }
   
 /*   display:flex  */
@@ -62,25 +78,26 @@ p {
       Portflio
     </h1>
 
-  <div class="top_navigation">
+  <div class="home_navigation">
     <ul>
     <li><a href="">Home</a></li>
-    <li><a href="">News</a></li>
-    <li><a href="">Contact</a></li>
-    <li><a href="">About</a></li>
+    <li><a href="">Architeture</a></li>
+    <li><a href="">Nature</a></li>
+    <li><a href="">People</a></li>
+    <li><a href="">Others</a></li>
     </ul>
     
-    <p>
+     <p class="self_intro">
     Hi! My name is Yolanda Wang from Beijing, China. Now, I am in the second year of the University of Waterloo GBDA program. On the journey of arts and design. I mainly explore photography, more specifically – black and white photography. This portfolio shows part of my black-and-white photography works between 2020 - 2024 shot in different places. I hope these photos can deliver places’ views, people, and stories.
     </p>
-
-
-
+    
+    <img src="self-pic.png" class="self-pic" alt="Yolanda's pic">
+    
   </div>
     
     
+   
     
     
-		
 	</body>
 </html>
