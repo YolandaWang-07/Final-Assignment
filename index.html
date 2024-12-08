@@ -25,11 +25,15 @@
     margin-bottom: -10px;
   }
     
-h1 {
-  font-family: "Julius Sans One", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
+  h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  ul {
+    margin: 2%;
+  }
 
 
   li {
@@ -51,19 +55,12 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-/*   padding-top: 10%; */
-  padding-right: 40%;
-  float: left;
+/*     line-height: calc(20px*1.5); */
 } 
   
   .self-pic {
-    position: relative;
-    float: right;
-    width: 35%;
-    top: -50%;
-    left: -1%;
-    max-width: 250px;
-    border: 1px solid black;
+    width: 30%;
+    aspect-ratio: 1/1;
   }
   
   .home_navigation {
@@ -78,9 +75,18 @@ h1 {
     position: relative;
 /*     display: inline; */
     font-size: 45px;
-    left: 50%;
-    top: -5%;
-    word-spacing: 100px;
+    left: 60%;
+    top: -20%;
+    word-spacing: 8vw;
+  }
+  
+  .text_img {
+    margin: 10% 0;
+    display:flex;
+  
+/*     justify-content: ce
+    nter; */
+    align-items: center;
   }
   
 /*   .sub-t2 {
@@ -97,6 +103,7 @@ h1 {
 	<body>
     <h1 class="web_header">
       Portflio
+<!--       <img src="self-pic.png" class="self-pic" alt="Yolanda's pic"> -->
     </h1>
 
   <div class="home_navigation">
@@ -108,11 +115,13 @@ h1 {
     <li><a href="">Others</a></li>
     </ul>
     
-    <p class="self_intro">
-    Hi! My name is Yolanda Wang from Beijing, China. Now, I am in the second year of the University of Waterloo GBDA program. On the journey of arts and design. I mainly explore photography, more specifically – black and white photography. This portfolio shows part of my black-and-white photography works between 2020 - 2024 shot in different places. I hope these photos can deliver places’ views, people, and stories.
-    </p>
-    
-    <img src="self-pic.png" class="self-pic" alt="Yolanda's pic">
+    <div class="text_img">
+      <p class="self_intro">
+      Hi! My name is Yolanda Wang from Beijing, China. Now, I am in the second year of the University of Waterloo GBDA program. On the journey of arts and design. I mainly explore photography, more specifically – black and white photography. This portfolio shows part of my black-and-white photography works between 2020 - 2024 shot in different places. I hope these photos can deliver places’ views, people, and stories.
+      </p>
+
+      <img src="self-pic.png" class="self-pic" alt="Yolanda's pic">
+    </div>
     
     <h1 class="sub-t1">About me</h1>
     
