@@ -97,10 +97,17 @@
     align-items: center;
   }
   .top_bottom_b {
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .left_right_b {
-    margin: 0 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .one_image_bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .two_image_bg {
     background-size: 50%;
@@ -148,14 +155,19 @@
       <img src="circles.png" alt="circle decoration" style="width: 100%; padding: 0 50px;">
     </div>
    
-    <div class="places_title two_image_bg" style="height:350px; background-image:url('homepage_pic/shanxi_1.JPG'), url('homepage_pic/shanxi_2.JPG');">
+    <div class="top_bottom_b places_title two_image_bg" style="height:250px; background-image:url('homepage_pic/shanxi_1.JPG'), url('homepage_pic/shanxi_2.JPG');">
       <h2>Shanxi</h2>
     </div>
     
-    <div class="top_bottom_b left_right_b places_title" style="height:600px; background-image:url('homepage_pic/xizang_1.JPEG'), url('homepage_pic/xizang_2.JPEG');">
+    <div class="top_bottom_b left_right_b places_title two_image_bg" style="height:400px; background-image:url('homepage_pic/xizang_2.JPEG'), url('homepage_pic/xizang_1.JPEG');">
       <h2>Xizang</h2>
     </div>
    
+    <div style="background-color:black; padding: 20px 0;">
+      <div class="top_bottom_b left_right_b places_title one_image_bg" style="aspect-ratio: 1/1; background-image: url('homepage_pic/liaoning.JPEG');">
+      <h2>Xizang</h2>
+    </div>
+    </div>
     
 	</body>
 </html>
